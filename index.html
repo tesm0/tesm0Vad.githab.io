@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.1/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.1/dist/js/uikit-icons.min.js"></script>
+    <title>Браузеры и плагины для Web-разработки</title>
+</head>
+
+<body>
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="основа.html">О теме</a></li>
+                        <li><a href="google.html">Google Chrome</a></li>
+                        <li><a href="mozilla.html">Mozilla Firefox</a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="microsoft.html">Microsoft Edge</a></li>
+                        <li><a href="safary.html">Safari</a></li>
+                        <li><a href="Video.html">Video</a></li>
+                        <li><a href="#">Свяжись с нами!</a></li>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="https://web.telegram.org/k/#@Z_VadimM">Телеграм</a></li>
+                                <li><a href="https://vk.com/vadimzarubin">Вконтакте</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-container">
+        <div class="uk-grid" uk-grid>
+            <!-- Sidebar -->
+            <div class="uk-width-1-4@m uk-visible@m">
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Меню</h3>
+                    <ul class="uk-nav uk-nav-default">
+                        <li class="uk-active"><a href="основа.html">О теме</a></li>
+                        <li><a href="google.html">Google Chrome</a></li>
+                        <li><a href="mozilla.html">Mozilla Firefox</a></li>
+                        <li><a href="microsoft.html">Microsoft Edge</a></li>
+                        <li><a href="safary.html">Safari</a></li>
+                        <li><a href="Video.html">Video</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="uk-width-3-4@m">
+                <h1>Современные браузеры — это не только отличные приложения для просмотра веб-страниц</h1>
+                <p>В современном цифровом мире веб-разработка играет ключевую роль в создании интерактивных и функциональных онлайн-приложений. Основным инструментом для разработчиков являются веб-браузеры, которые не только позволяют пользователям взаимодействовать с интернет-контентом, но и предоставляют мощные инструменты для отладки, тестирования и оптимизации веб-приложений.</p>
+                <p>Браузеры, такие как Google Chrome, Mozilla Firefox, Microsoft Edge и Safari, предлагают широкий спектр встроенных функций и инструментов разработчика, которые помогают анализировать производительность, отлаживать код и проверять доступность.</p>
+                <p>Однако возможности браузеров можно значительно расширить с помощью плагинов и расширений. Эти инструменты позволяют разработчикам улучшать рабочий процесс, автоматизировать рутинные задачи и получать доступ к специализированным функциям, которые могут упростить процесс разработки.</p>
+                <p>В этом контексте важно понимать, какие плагины могут быть наиболее полезными для различных аспектов веб-разработки, таких как отладка, SEO, доступность и дизайн. В данной статье мы рассмотрим наиболее популярные браузеры и плагины, которые помогут разработчикам эффективно справляться с задачами, улучшая качество Web-разработки.</p>
+                <h2>
+                <img src="https://i0.wp.com/proselyte.net/wp-content/uploads/2016/02/motivation.jpg" alt="Мотиваци">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="uk-section uk-section-secondary uk-light">
+        <div class="uk-container">
+            <div class="uk-grid" uk-grid>
+                <div class="uk-width-1-2@m">
+                    <h3>О нас</h3>
+                    <p>Мы предоставляем информацию о современных браузерах и плагинах для веб-разработки.</p>
+                </div>
+                <div class="uk-width-1-2@m">
+                    <h3>Свяжитесь с нами</h3>
+                    <ul class="uk-list">
+                        <li><a href="https://web.telegram.org/k/#@Z_VadimM">Телеграм</a></li>
+                        <li><a href="https://vk.com/vadimzarubin">Вконтакте</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-text-center uk-margin-top">
+                © 2023 Ваша Компания. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Off-canvas sidebar for mobile -->
+    <div id="offcanvas-nav" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-active"><a href="основа.html">О теме</a></li>
+                <li><a href="google.html">Google Chrome</a></li>
+                <li><a href="mozilla.html">Mozilla Firefox</a></li>
+                <li><a href="microsoft.html">Microsoft Edge</a></li>
+                <li><a href="safary.html">Safari</a></li>
+                <li><a href="Video.html">Video</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Toggle button for off-canvas sidebar -->
+    <div class="uk-hidden@m uk-position-bottom-right uk-position-fixed uk-margin-right uk-margin-bottom">
+        <a href="#offcanvas-nav" uk-toggle>
+            <span uk-icon="icon: menu; ratio: 2"></span>
+        </a>
+    </div>
+</body>
+
+</html>
